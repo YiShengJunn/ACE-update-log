@@ -18,5 +18,5 @@ readme = open("README.md","a+",encoding="utf-8")
 if title in readme_onlyr.read():
     pass
 else:
-    readme.write("\n## "+title+"  \n**更新日期："+yesterday+"**\n"+content)
+    readme.write("\n## "+title+"\n**更新日期："+yesterday+"**  \n"+content)
     readme.close()
