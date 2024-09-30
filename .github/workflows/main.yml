@@ -1,1 +1,34 @@
+name: 定时运行
 
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  run-get-updatelog-job:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.8
+    
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests
+        
+    - name: Run Python script
+      id: run-python-script
+      run: python getACEupdatelog.py
+
+    - name: update file
+      run: |
+        git config user.name "YIShengJunn"
+        git config user.email "LZY916127@outlook.com"
+        git add .
+        git commit -m "updated"
+        git push
