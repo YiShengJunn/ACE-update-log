@@ -10,6 +10,7 @@ HEADERS = { "User-Agent": "win;1.9.0;windows-10;1201787499",
             "channel":"general",
             "lan":"CHN"}
 respone = requests.get(CHECK_UPDATE_URL, headers=HEADERS).json()
+print(respone)
 title = respone["data"]["tip"]["title"]
 content = respone["data"]["tip"]["content"].rstrip()
 
