@@ -68,3 +68,11 @@ background-color:hsl(0,0%,60%);
 人声效果器 ---- 内置EQ、压缩、去齿音、混响效果。
 
 我们持续地在优化和添加各种强大功能，保持更新以解锁最新功能哦！如有任何问题，发送邮件到 support@acestudio.ai 以获得技术支持。
+## 1.9.7版本更新
+**更新日期：2025-01-27**  
+<p><strong>全新ACE Bridge 2现已推出</strong> ---- 第二代Bridge插件将 ACE Studio 与您的 DAW 无缝连接，不仅可以将 ACE 的人声音频输出到 DAW，还支持将 DAW 的 MIDI 录制到 ACE。查看教程视频：<a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=Um3vU3VWjow">https://www.youtube.com/watch?v=Um3vU3VWjow</a></p>
+<p>&nbsp;</p>
+<p><strong>许可证书生成</strong> ---- 您可以直接在 ACE Studio 内轻松生成声音许可证证书。<br>&nbsp; &nbsp;&nbsp;<br><strong>全新的wiki文档</strong> ---- ACE Studio 的全新 Wiki 文档已上线，帮助您全面了解所有功能、使用技巧以及故障排除方法：<br><a target="_blank" rel="noopener noreferrer" href="https://docs.acestudio.ai">https://docs.acestudio.ai</a></p>
+<hr>
+<p>我们会持续优化并新增更多功能，敬请期待！如需帮助请发送邮件至 support@acestudio.ai。</p>
+<p>&nbsp;</p>
